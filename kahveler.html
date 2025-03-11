@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kahve Menü</title>
+    <link rel="stylesheet" href="cafe.css">
+</head>
+<body>
+    <main>
+        <section id="kahveler">
+            <h2>Sıcak Kahve Çeşitleri</h2>
+            <div class="menu-items">
+                <div class="menu-item"  onclick="showCoffeeInfo('Espresso')">
+                    <img src="images (2).jpeg" alt="Espresso">
+                    <h3>Espresso</h3>
+                    
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="espresso-info" class="toggle-info">
+                    <label for="espresso-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Espresso</h2>
+                            <p>Espresso: Yoğun ve saf kahve deneyimi sunar.</p>
+                            <label for="espresso-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu-item"  onclick="showCoffeeInfo('Cappuccino')">
+                    <img src="images.jpeg" alt="Cappuccino">
+                    <h3>Cappuccino</h3>
+                    
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="cappuccino-info" class="toggle-info">
+                    <label for="cappuccino-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Cappuccino</h2>
+                            <p>Cappuccino:Süt köpüğüyle eşsiz lezzet.</p>
+                            <label for="cappuccino-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item "onclick="showCoffeeInfo('Latte')" >
+                    <img src="images (4).jpeg" alt="Latte">
+                    <h3>Latte</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="latte-info" class="toggle-info">
+                    <label for="latte-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Latte</h2>
+                            <p>Latte:Sütle harmanlanmış kahve.</p>
+                            <label for="latte-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Türk Kahvesi')">
+                    <img src="images (5).jpeg" alt="Türk Kahvesi">
+                    <h3>Türk Kahvesi</h3>
+                    <span class="item-price">100 TL</span>
+                    <input type="checkbox" id="turkkahvesi-info" class="toggle-info">
+                    <label for="turkkahvesi-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Türk Kahvesi</h2>
+                            <p>Türk Kahvesi:Bol köpüklü ve eşsiz aromalı bir lezzet.</p>
+                            <label for="turkkahvesi-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Macchiato')">
+                    <img src="images (6).jpeg" alt="Macchiato">
+                    <h3>Macchiato</h3>
+                    <span class="item-price">120 TL</span>
+                    <input type="checkbox" id="macchiato-info" class="toggle-info">
+                    <label for="macchiato-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Macchiato</h2>
+                            <p>Macchiato:Espresso ve süt köpüğünün mükemmel uyumu!</p>
+                            <label for="macchiato-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Mocha')">
+                    <img src="images (7).jpeg" alt="Mocha">
+                    <h3>Mocha</h3>
+                    <span class="item-price">120 TL</span>
+                    <input type="checkbox" id="mocha-info" class="toggle-info">
+                    <label for="mocha-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Mocha</h2>
+                            <p>Mocha:Kahve ve çikolatanın eşsiz buluşması!</p>
+                            <label for="mocha-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                       
+                </div>
+            </div>
+        </section>
+        <section id="soguk-kahveler">
+            <h2>Soğuk Kahve Çeşitleri</h2>
+            <div class="menu-items">
+                <div class="menu-item" onclick="showCoffeeInfo('Iced Americano')">
+                    <img src="SBX20190607_IcedCaffeAmericano.avif" alt="Iced Americano">
+                    <h3>Iced Americano</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="ıcedamericano-info" class="toggle-info">
+                    <label for="ıcedamericano-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Iced Americano</h2>
+                            <p>Iced Americano:Ferahlatıcı soğuk kahve.</p>
+                            <label for="ıcedamericano-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Cold Brew')">
+                    <img src="SBX20210611_ColdBrew.avif" alt="Cold Brew">
+                    <h3>Cold Brew</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="coldbrew-info" class="toggle-info">
+                    <label for="coldbrew-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Cold Brew</h2>
+                            <p>Cold Brew:Yavaş demleme soğuk kahve.</p>
+                            <label for="coldbrew-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Iced Latte')">
+                    <img src="SBX20190607_IcedCaffeLatte.avif" alt="Iced Latte">
+                    <h3>Iced Latte</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="ıcedlatte-info" class="toggle-info">
+                    <label for="ıcedlatte-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Iced Latte</h2>
+                            <p>Iced Latte:Sütlü ve serinletici.</p>
+                            <label for="ıcedlatte-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-item" onclick="showCoffeeInfo('Frappe')">
+                    <img src="SBX20220323_CaramelFrapp.avif" alt="Frappe">
+                    <h3>Frappe</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="frappe-info" class="toggle-info">
+                    <label for="frappe-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Frappe</h2>
+                            <p>Frappe:Soğuk kahvenin serinletici lezzeti!</p>
+                            <label for="frappe-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                       
+                </div>
+                <div class="menu-item">
+                    <img src="SBX20190607_IcedCaffeMocha.avif" alt="Iced Mocha">
+                    <h3>Iced Mocha</h3>
+                    <span class="item-price">150 TL</span>
+                    <input type="checkbox" id="ıcedmocha-info" class="toggle-info">
+                    <label for="ıcedmocha-info" class="info-trigger"></label>
+                    <div class="modal">
+                        <div class="modal-content">
+                            <h2>Iced Mocha</h2>
+                            <p>Iced Mocha: Soğuk kahve ve çikolatanın ferahlatıcı birleşimi!</p>
+                            <label for="ıcedmocha-info" class="close-btn">&times;</label>
+                        </div>
+                    </div>
+                       
+                </div>
+
+                
+                    
+                </div>
+            </div>
+           
+            
+        </section>
+    </main>
+</body>
+</html>
