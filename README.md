@@ -24,7 +24,7 @@ Cafe Web Sayfası/
 │
 ├── index.html
 ├── style.css
-├── script.js (varsa)
+├── script.js 
 └── images/
 
 ## ✨ Özellikler
@@ -35,8 +35,3 @@ Cafe Web Sayfası/
 - 📞 İletişim bölümü
 - 🎨 Modern ve sade UI tasarım
 
-## 💻 Nasıl Çalıştırılır?
-
-1. Repo'yu indir:
-```bash
-git clone https://github.com/bernaceliik/cafe-web-sayfasi.git
